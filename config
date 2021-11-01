@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "HTML-Odev-3"]
+	url = https://github.com/Selahaddin64/HTML-Odev-3.git
+	fetch = +refs/heads/*:refs/remotes/HTML-Odev-3/*
+[branch "master"]
+	remote = HTML-Odev-3
+	merge = refs/heads/master
